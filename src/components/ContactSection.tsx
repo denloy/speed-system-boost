@@ -31,13 +31,17 @@ const ContactSection = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-20">
             <a
-              href="#contact-form"
+              href="https://wa.me/2347061746733?text=Hi%2C%20I%27d%20like%20to%20book%20a%20call"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-lg bg-gradient-to-r from-primary to-accent text-primary-foreground font-semibold text-lg hover-glow glow-primary transition-all"
             >
               🚀 Book a Call <ArrowRight size={20} />
             </a>
             <a
-              href="#contact-form"
+              href="https://wa.me/2347061746733?text=Hi%2C%20I%27d%20like%20to%20discuss%20a%20project"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-lg glass text-foreground font-semibold text-lg hover:border-primary/50 transition-all"
             >
               <Mail size={20} /> Send a Message
